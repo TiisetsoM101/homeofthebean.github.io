@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://my.spline.design/untitled-ad71fcfdc1491dcd046f5616aa0d147c/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <title>Tast good</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" >
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylsheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <!-- Google fonts cdn link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link href="https://prod.spline.design/QHqyOPL7rJ3AC9wa/scene.splinecode">
+    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+
+    <!-- Swiper CDN link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" >
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+
+</head>
+
+<body>
+
+
+    <!-- header section starts -->
+
+    <div class="header">
+        <nav id="navbar">
+            <a href="#" class="logo"><img src="images/pic.1_files/logo/logo1-removebg-preview.png" alt=""></a>
+            <div class="links" id="nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Blog</a>
+                <a href="#gallery">Services</a>
+                <a href="#reviews">Team</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div id="menu-btn" class="bx bx-menu" onclick="openmenu()"></div>
+            <div id="close" class="bx bx-x" onclick="closemenu()"></div>
+
+        </nav>
+    </div>
+
+    <!-- header section ends -->
+
+
+
+    <!-- Home Section Start -->
+
+    <section class="home" id="home">
+
+        <div id="email-form" class="hidden">
+            <h2>Enter Your Email</h2>
+            <input type="text" id="username" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <button type="submit" onclick="submitForm()">Submit</button>
+            <button type="submit" onclick="closeEmailForm()">Close</button>
+        </div>
+
+        <div class=" swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/pic.1_files/home/home.png) no-repeat">
+                        <div class="content">
+                            <img src="images/pic.1_files/home/text1-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/pic.1_files/home/home9.jpg) no-repeat">
+                        <div class="content">
+                            <img src="images/pic.1_files/home/text1-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/pic.1_files/home/home5.jpg) no-repeat">
+                        <div class="content">
+                            <img src="images/pic.1_files/home/text1-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/pic.1_files/home/home6.jpg) no-repeat">
+                        <div class="content">
+                            <img src="images/pic.1_files/home/text1-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/pic.1_files/home/home12.jpg) no-repeat">
+                        <div class="content">
+                            <img src="images/pic.1_files/home/text1-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/pic.1_files/home/home8.jpg) no-repeat">
+                        <div class="content">
+                            <img src="images/pic.1_files/home/text1-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Home Section End -->
+
+
+
+
+    <!-- About Section Start -->
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="image"></div>
+
+            <div class="about-content">
+                <h1>What makes our coffe special</h1>
+                <h3>A love and passion for coffee</h3>
+                <p>Home of the Bean creates an experience that not only allows its customers to enjoy their coffee but educate them about how it is made and the fair trade that goes into creating each brew and confectionary. Our beans are sourced from different
+                    roasteries and as far away as Burundi, Ethiopia, Costa Rica and Guatemala. At Home of the Bean, our aim has always been to work with different roasters, across the world, and home the best beans in our hoppers (not just any beans,
+                    thee Bean) and that's where our name came about.</p>
+                <button type="submit" class="btn">About Us</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section End -->
+
+
+
+
+    <!-- Background Start -->
+    <div class="background"></div>
+    <!-- Background End -->
+
+
+
+
+
+    <!-- Blog Section Start -->
+
+    <section class="blog" id="blog">
+        <h1 class="heading">Our <span>Blog</span></h1>
+        <p class="heading-description">Read our blog and know more about our</p>
+        <div class="container">
+            <div class="post">
+                <div class="blog-img">
+                    <img src="images/pic.1_files/pic10.png" alt="">
+                    <span>21 <br> Jun</span>
+                </div>
+                <div class="blog-content">
+                    <h3>By admin <span>Jhon Doe</span></h3>
+                    <h1>Tasty and refresing coffee</h1>
+                    <p>Roasting and creating great coffee is a mixture of art and science.</p>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="blog-img">
+                    <img src="images/pic.1_files/pic9.png" alt="">
+                    <span>21 <br> Jun</span>
+                </div>
+                <div class="blog-content">
+                    <h3>By admin <span>Jhon Doe</span></h3>
+                    <h1>Tasty and refresing coffee</h1>
+                    <p>Roasting and creating great coffee is a mixture of art and science.</p>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="blog-img">
+                    <img src="images/pic.1_files/pic12.png" alt="">
+                    <span>21 <br> Jun</span>
+                </div>
+                <div class="blog-content">
+                    <h3>By admin <span>Jhon Doe</span></h3>
+                    <h1>Tasty and refresing coffee</h1>
+                    <p>Roasting and creating great coffee is a mixture of art and science.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section End -->
+
+
+
+
+    <!-- Background Start -->
+    <div class="background"></div>
+    <!-- Background End -->
+
+
+
+
+
+    <!-- Services Section Start -->
+
+    <section class="service" id="service">
+        <h1 class="heading">Our <span>Services</span></h1>
+        <p class="heading-description">We deliver our product free door to door 24/7</p>
+        <div class="container">
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="images/pic.1_files/menu2.png" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>Tasty and healty</h3>
+                    <p>We promise that our coffee and food are the best to get specially in this area</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="images/pic.1_files/menu3.png" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>Tasty and healty</h3>
+                    <p>We promise that our coffee and food are the best to get specially in this area</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="images/pic.1_files/menu4.png" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>Tasty and healty</h3>
+                    <p>We promise that our coffee and food are the best to get specially in this area</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="images/pic.1_files/menu5.png" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>Tasty and healty</h3>
+                    <p>We promise that our coffee and food are the best to get specially in this area</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="images/pic.1_files/menu6.png" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>Tasty and healty</h3>
+                    <p>We promise that our coffee and food are the best to get specially in this area</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="images/pic.1_files/menu7.png" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>Tasty and healty</h3>
+                    <p>We promise that our coffee and food are the best to get specially in this area</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section End -->
+
+
+
+
+    <!-- Background Start -->
+    <div class="background"></div>
+    <!-- Background End -->
+
+
+
+
+
+    <!-- Team Section Start -->
+
+    <section class="team" id="team">
+        <h1 class="heading">Our <span>Team</span></h1>
+        <p class="heading-description">Long lasting tradition and true love for coffe</p>
+        <div class="container">
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="images/pic.1_files/team1.png" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>John Deo</h3>
+                    <p>Cook</p>
+                    <div class="social">
+                        <a aria-label="icons" href="#"><i class="bx bxl-instagram"></i></a>
+                        <a aria-label="icons" href="#"><i class="bx bxl-facebook"></i></a>
+                        <a aria-label="icons" href="#"><i class="bx bxl-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="images/pic.1_files/team2.png" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>John Deo</h3>
+                    <p>Cook</p>
+                    <div class="social">
+                        <a aria-label="icons" href="#"><i class="bx bxl-instagram"></i></a>
+                        <a aria-label="icons" href="#"><i class="bx bxl-facebook"></i></a>
+                        <a aria-label="icons" href="#"><i class="bx bxl-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="images/pic.1_files/team3.png" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>John Deo</h3>
+                    <p>Cook</p>
+                    <div class="social">
+                        <a aria-label="icons" href="#"><i class="bx bxl-instagram"></i></a>
+                        <a aria-label="icons" href="#"><i class="bx bxl-facebook"></i></a>
+                        <a aria-label="icons" href="#"><i class="bx bxl-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="images/pic.1_files/team4.png" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>John Deo</h3>
+                    <p>Cook</p>
+                    <div class="social">
+                        <a aria-label="icons" href="#"><i class="bx bxl-instagram"></i></a>
+                        <a aria-label="icons" href="#"><i class="bx bxl-facebook"></i></a>
+                        <a aria-label="icons" href="#"><i class="bx bxl-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section End -->
+
+
+
+
+    <!-- Background Start -->
+    <div class="background"></div>
+    <!-- Background End -->
+
+
+
+
+
+    <!-- Contact Section Start -->
+
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact <span>Us</span></h1>
+        <p class="heading-description">We are always here for you...</p>
+        <div class="container">
+            <div class="contact-box">
+                <div>
+                    <i class="bx bx-envelope-open"></i>
+                    <h2>Email address <br> <span>Send email anytime</span></h2>
+                </div>
+                <div>
+                    <p>homeofthebean@gmail.com</p>
+                    <i class="bx bx-rotate-right"></i>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <div>
+                    <i class="bx bx-map-pin"></i>
+                    <h2>Address <br> <span>Find Us</span></h2>
+                </div>
+                <div>
+                    <p>Johannesburg, Maboneng</p>
+                    <i class="bx bx-rotate-right"></i>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div>
+                    <i class="bx bxs-phone-call"></i>
+                    <h2>Call Us <br> <span>Call us anytime</span></h2>
+                </div>
+                <div>
+                    <p>+27 62 122 4459</p>
+                    <i class="bx bx-rotate-right"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section End -->
+
+
+
+
+    <!-- Background Start -->
+    <div class="background"></div>
+    <!-- Background End -->
+
+
+
+
+
+    <!-- Footer Section Start -->
+
+    <section class="footer">
+
+        <div class="container">
+            <div class="footer-box">
+                <h3>About us</h3>
+                <p>I hope you found what you where looking for and if you the website and plaining to get your own you can get yours too</p>
+                <p>Copyright &copy; 2023 All right reserved By <a href="#">HomeOfTheBean</a></p>
+            </div>
+            <div class="footer-box">
+                <h3>Newsletter</h3>
+                <p>Stay update with our latests</p>
+                <form>
+                    <input type="email" placeholder="homeofthebean@gmail.com">
+                    <button type="submit"><i class="bx bx-rotate-right"></i></button>
+                </form>
+            </div>
+            <div class="footer-box">
+                <h3>Follow Us</h3>
+                <p>Connect With Us On:</p>
+                <div>
+                    <a aria-label="icon" href="#"><i class="bx bxl-instagram"></i></a>
+                    <a aria-label="icon" href="#"><i class="bx bxl-facebook"></i></a>
+                    <a aria-label="icon" href="#"><i class="bx bxl-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section End -->
+
+
+
+
+
+
+
+
+    <!-- Swiper CDN Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Custom Script file -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
